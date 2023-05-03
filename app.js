@@ -5,16 +5,13 @@ const app = express();
 app.get('/', (req, res) => {
   res.send(`
     <h1>Bem-vindo</h1>
-    <ul>
-      <li><a href="/sobre">Sobre</a></li>
-      <li><a href="/contato">Contato</a></li>
-    </ul>
+    <p>Pagina inicial de teste com alterações</p>
   `);
 });
 
 // Definindo a rota "/sobre"
 app.get('/sobre', (req, res) => {
-  res.send('<h1>Sobre</h1><p>Eu sou um desenvolvedor web experiente.</p>');
+  res.send('<h1>Sobre</h1><p>Olá meu nome é Vit.</p>');
 });
 
 // Definindo a rota "/contato"
