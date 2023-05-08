@@ -22,16 +22,16 @@ app.get('/sobre', (req, res) => {
   res.render('sobre');
 });
 
-// Definindo a rota "/more(negócios )"
+// Definindo a rota "/business(negócios)"
 app.get('/business', (req, res) => {
-  res.render('more');
+  res.render('business');
 });
 // Definindo a rota "/more(mais)"
 app.get('/more', (req, res) => {
   res.render('more');
 });
 
-// Iniciando o servidor na porta 3000
+// Iniciando o servidor na porta 4000
 app.listen(4000, () => {
-  console.log('Servidor iniciado na porta 3000');
+  console.log('Servidor iniciado na porta 4000');
 });
